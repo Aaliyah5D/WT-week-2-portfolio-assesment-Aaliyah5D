@@ -136,15 +136,26 @@
             <li>Social Innovation and Entrepreneurship</li>
         </ul>
     </div>
-<form action="https://formspree.io/f/yourFormID" method="POST">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br>
+  <form id="contact-form" action="https://formspree.io/f/mgvklabb" method="POST">
+    <h2>Contact Me</h2>
+    
+    <label for="first-name">First Name</label>
+    <input type="text" name="first-name" id="first-name" required>
 
-  <input type="submit" value="Sign Up">
-</form>
+    <label for="second-name">Second Name</label>
+    <input type="text" name="second-name" id="second-name" required>
 
+    <label for="email">Email</label>
+    <input type="email" name="_replyto" id="email" required>
+
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+    <div class="success-message" id="success-message">Thank you! Your message has been sent.</div>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>
