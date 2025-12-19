@@ -75,6 +75,12 @@ blockquote {
 
 /* Optional: Hover effects for sections */
 
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
 form {
   background: #fff;
   padding: 2rem;
